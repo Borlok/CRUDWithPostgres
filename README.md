@@ -46,3 +46,5 @@ accounts
 specialties 
 
 Технологии: Java, PostgreSql, Maven, Flyway, JUnit, Mockito, Hibernate
+
+[![Build Status](https://travis-ci.com/Borlok/CRUDWithPostgres.svg?branch=main)](https://travis-ci.com/Borlok/CRUDWithPostgres)
