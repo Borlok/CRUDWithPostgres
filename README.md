@@ -1,5 +1,5 @@
-Консольное CRUD приложение с использованием [![Build Status](https://travis-ci.com/Borlok/CRUDWithPostgres.svg?branch=master)](https://travis-ci.com/Borlok/CRUDWithPostgres)
-Hibernate, Maven, Flyway
+Консольное CRUD приложение с использованием 
+Hibernate, Maven, Flyway      [![Build Status](https://travis-ci.com/Borlok/CRUDWithPostgres.svg?branch=master)](https://travis-ci.com/Borlok/CRUDWithPostgres)
 
 Задача:
 Необходимо реализовать консольное CRUD 
