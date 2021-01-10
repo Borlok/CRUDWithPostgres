@@ -1,14 +1,13 @@
 package com.borlok.model;
 
 import javax.persistence.*;
-import javax.transaction.Transactional;
 import java.util.HashSet;
 import java.util.Set;
 @Entity
 @Table(name = "customers")
 public class Customer {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "customer_id")
     private int id;
 

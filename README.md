@@ -34,15 +34,15 @@ Account -> AccountStatus
 Результатом выполнения задания должен быть репозиторий на github,
 с использованием Travis (https://travis-ci.org/) и отображением статуса сборки проекта.
 
-В MySql должны присутствовать:
+В PostgreSql должны присутствовать:
 1. Пользователь student с паролем 123.
 2. ДБ practice
 
-При компиляции программы, в mysql создаются таблицы:
+При компиляции программы, в db создаются таблицы:
 
 customers
 specialty_list
 accounts
 specialties 
 
-Технологии: Java, MySQL, Maven, Flyway, JUnit, Mockito, Hibernate
+Технологии: Java, PostgreSql, Maven, Flyway, JUnit, Mockito, Hibernate
