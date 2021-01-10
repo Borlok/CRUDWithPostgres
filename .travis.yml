@@ -3,6 +3,6 @@ sudo: required
 services:
   - postgresql
 before_install:
-  - -u postgres psql -c "CREATE DATABASE if not exists practice;"
+  - -u postgres psql -c "CREATE DATABASE practice;"
   - -u postgres psql -c "CREATE USER student WITH PASSWORD '123';"
   - -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE practice to student;"
